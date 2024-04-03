@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake Bite</title>
+    <link rel="stylesheet" href="/snake.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    
+</head>
+<body>
+    <div class="body">
+        <div id="scoreBox">Score: 0</div>
+        <div id="hiscoreBox">HiScore: 0</div>
+        <div id="board">
+         
+        </div>
+    </div>
+    <div id="game-container">
+        <canvas id="game-canvas"></canvas>
+        <div id="game-over" style="display: none;">
+          <img src="/gameOver.jpg" alt="Game Over" />
+          <button id="restart-button">
+            <i class="fas fa-redo-alt fa-x fa-beat" style="color: #ffffff;"></i> Restart 
+            
+            </button>
+        </div>
+      </div>
+      
+    <script src="index.js"></script>
+</body>
+</html>
